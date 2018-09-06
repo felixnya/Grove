@@ -25,9 +25,6 @@ public class MainActivity extends Activity implements MyRecyclerViewAdapter.Item
         setContentView(R.layout.activity_main);
 
 
-        TextView s = (TextView) findViewById(R.id.text);
-
-
 
         PlayerCard player = new PlayerCard();
         player.createDeck();
